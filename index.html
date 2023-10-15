@@ -8,297 +8,194 @@
   <title>COTEMAG GASTRONOMICO</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" type="image" href="asset/cotemag-fabicon.png">
-
- 
-
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap links -->
+  <!-- fonts links -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap" rel="stylesheet">
-
-  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <!-- fonts links -->
 </head>
 
 <body>
-  <div class="main-content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 
-    <nav class="navbar navbar-expand-md" id="navbar-color" data-aos="fade-down" data-aos-easing="linear"
-      data-aos-duration="1500">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="asset/Logo-gastronomico-azul-2.png" alt="" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="./asset/Menu.svg" alt="" width="30px"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-      <div class="container">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+          </li>
 
-        <a class="navbar-brand" href="#" id="logo"><img src="asset/Logo-gastronomico-azul-2.png" alt="" width="80px">
-          COTEMAG
-          <span> GASTRONOMICO</span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              DOCENTES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121);">
+              <li><a class="dropdown-item" href="#">CHEFS</a></li>
+            </ul>
+          </li>
 
 
-        <button class="navbar-toggler" type="navbar-button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span><img src="asset/menu.png" alt=""></span>
-        </button>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              OFERTAS ACADEMICAS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121);">
+              <li><a class="dropdown-item" href="#">TECNICOS</a></li>
+              <li><a class="dropdown-item" href="#">DIPLOMADOS</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              RECETAS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121);">
+              <li><a class="dropdown-item" href="#">BLOG</a></li>
+            </ul>
+          </li>
 
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Programas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Docentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Eventos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recetas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contactos</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              GALERIA
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121);">
+              <li><a class="dropdown-item" href="#">NUESTRO TRABAJO</a></li>
+            </ul>
+          </li>
 
-    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">INFRAESTRUCTURA</a>
+          </li>
 
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="asset/slaiderr.jpeg" class="d-block w-100 c-img" alt="Slide 1">
-          <div class="carousel-caption top-0 mt-4"></div>
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="asset/slaiderrrr.jpeg" class="d-block w-100 c-img" alt="Slide 2">
-        <div class="carousel-caption top-0 mt-4">
 
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="asset/slaiderrrrr.jpeg" class="d-block w-100 c-img" alt="Slide 3">
-        <div class="carousel-caption top-0 mt-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTOS</a>
+          </li>
+        </ul>
 
-        </div>
+
       </div>
     </div>
+  </nav>
+  <!-- navbar -->
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="asset/fotogaleria.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria1.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria2.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria2.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-
-    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
 
 
-  <div class="container" id="gallary" data-aos="fade-up" data-aos-duration="1500">
-    <h1 class="text-center">GALERIA</h1>
-    <div class="row">
-      <div class="col-md-4 py-3 py-md-0">
-        <div class="card">
-          <img src="asset/Galeria.jpeg" alt="">
-        </div>
-      </div>
-      <div class="col-md-4 py-3 py-md-0">
-        <div class="card">
-          <img src="asset/Galeria1.jpeg" alt="">
-        </div>
-      </div>
-      <div class="col-md-4 py-3 py-md-0">
-        <div class="card">
-          <img src="asset/fotogaleria.jpeg" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container" id="chefs" data-aos="fade-up" data-aos-duration="1500">
-    <h1 class="text-center">DOCENTES</h1>
-    <div class="row">
-      <div class="col-md-4 py-3 py-md-0">
-        <div class="card">
-          <img src="asset/chef.jpeg ">
-        </div>
-      </div>
-      <div class="col-md-8 py-3 py-md-0">
-        <main>
-
-          <ul>
-
-            <li>Título: Excelente instructor de cocina</li>
-            <li>Instructor: Chef Juan Pérez</li>
-            <li>Curso:Cocina básica para principiantes</li>
-            <li>Calificación: 5 estrellas</li>
-
-          </ul>
-
-          <p>El Chef Jose Abela es un excelente instructor de cocina. Es muy paciente y comprensivo, y siempre está
-          dispuesto a ayudar a los estudiantes a aprender. Tiene una gran experiencia en la cocina, y sabe cómo
-          transmitir sus conocimientos de forma clara y concisa.</p>
-
-          <p>En el curso de cocina básica para principiantes, el Chef Pérez enseñó a los estudiantes los fundamentos de la
-          cocina, desde cómo cortar verduras hasta cómo preparar platos completos. El curso fue muy completo y práctico,
-          y los estudiantes aprendieron mucho.</p>
-
-          <p>El Chef Pérez también es un gran motivador. Siempre está animando a los estudiantes a seguir aprendiendo y a
-          experimentar con nuevas recetas. Es un placer aprender de él, y estoy seguro de que cualquier persona que tome
-          un curso con él saldrá siendo un mejor cocinero.</p>
-        <ol>
-
-          <li>Puntos positivos</li>
-
-          <li>Instructor paciente y comprensivo</li>
-          <li>Gran experiencia en la cocina</li>
-          <li>Transmite sus conocimientos de forma clara y concisa</li>
-          <li>Curso completo y práctico</li>
-          <li>Gran motivador</li>
-
-          Puntos negativos:
-
-          No hay puntos negativos que mencionar
-          Recomendación:
-        </ol>
-          Recomiendo encarecidamente el Chef Juan Pérez a cualquier persona que quiera aprender a cocinar. Es un
-          instructor excelente que ayudará a los estudiantes a aprender y a disfrutar de la cocina.
-
-          Consejos para estudiantes:
-
-          Presten atención a las instrucciones del instructor
-          No tengan miedo de hacer preguntas
-          Practicen lo que aprendieron en casa
-          Conclusión:
-
-          El Chef Juan Pérez es un instructor de cocina excepcional. Si estás buscando aprender a cocinar, no dudes en
-          tomar un curso con él.
-        </main>
-      </div>
-    </div>
-  </div>
 
 
 
 
-  <footer id="footer" style="margin-top: 50px;" data-aos="fade-up" data-aos-duration="1500">
+
+
+
+  <!-- footer -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>COTEMAG GASTRONOMICO</h3>
             <p>
-            <h6>Estamos Ubicados</h6>
-            SANTA MARTA <br><br>
+              ESTAMOS UBICADOS <br>
             </p>
-            <strong>Telefono: <strong>+57</strong></strong>
-            <strong>Email: <strong></strong></strong>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Enlaces Utiles</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"><a href="#">Inicio</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Programas</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Galeria</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Docentes</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Eventos</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Recetas</a></i></li>
-              <li><i class="bx bx-chevron-right"><a href="#">Contactos</a></i></li>
+            <strong>Telefono:</strong> +57 300 481 3444<br>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Redes Sociales</h4>
+            <h4>SOBRE NOSOTROS</h4>
+            <P>Lorem ipsum dolor sit </P>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>NUESTROS SERVICIOS</h4>
+            <P>Lorem ipsum dolor sit </P>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>NUESTRAS REDES SOCIALES</h4>
+            <p>Lorem ipsum dolor sit </p>
             <div class="socail-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/cotemagsm/?hl=es" target="_blank" class="instagram"><i
-                  class="bx bxl-instagram"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=+573005624981" target="_blank" class="whatsapp"><i
-                  class="bx bxl-whatsapp"></i></a>
-
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-skype"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
+
           </div>
+
         </div>
       </div>
     </div>
-
-
-
+    <hr>
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span class="copy-strong">COTEMAG GASTRONOMICO</span></strong> Reservados Todos Los
-        Derechos
+        &copy; Copyright <strong><span>COTEMAG GASTRONOMICO</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed By <a href="#">SA coding</a>
+        Designed by <a href="#">SA coding</a>
       </div>
     </div>
-
   </footer>
+  <!-- footer -->
 
-  <a href="#" class="arrow">
-    <i>
-      <img src="asset/up-arrow.png" alt="" width="50px">
-    </i>
-  </a>
+  <a href="#" class="arrow"><i><img src="./asset/arrow.svg" alt="" width="50px"></i></a>
 
-
-  <script src="script.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  Slaider
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-  Slaider
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script>
-    AOS.init();
-  </script>
 
 </body>
 
