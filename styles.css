@@ -40,6 +40,82 @@
 }
 /*Navbar*/
 
+/*Slaider*/
+#carouselExampleIndicators {
+  /* Colores personalizados */
+  --carousel-bg-color: #fff;
+  --carousel-indicator-bg-color: #ccc;
+  --carousel-indicator-active-bg-color: #000;
+
+  /* Estilos personalizados */
+  background-color: var(--carousel-bg-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--carousel-indicator-bg-color);
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#carouselExampleIndicators .carousel-indicators button.active {
+  opacity: 1;
+  background-color: var(--carousel-indicator-active-bg-color);
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 300px;
+}
+
+#carouselExampleIndicators .carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+  top: 0;
+  bottom: 0;
+  margin:  auto 0 ;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#carouselExampleIndicators .carousel-control-prev:hover,
+#carouselExampleIndicators .carousel-control-next:hover {
+  opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next-icon {
+  font-size: 36px;
+}
+
+/*Slaider*/
+
 /*Sobre Nosotros*/
 .text-center{
   text-transform: uppercase;
@@ -205,3 +281,51 @@ html {
   color: white;
 }
 
+
+
+h1 {
+  text-align: center;
+}
+
+.event {
+  margin-bottom: 20px;
+}
+
+.event img {
+  width: 100%;
+  height: auto;
+}
+
+.event h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.event p {
+  margin-bottom: 0;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+
+  .jumbotron {
+    height: 80px;
+  }
+
+  .cabeza {
+    font-size: 20px;
+  }
+
+  .contenido, .contenido1 {
+    font-size: 14px;
+  }
+
+  .event h2 {
+    font-size: 18px;
+  }
+}
