@@ -171,9 +171,36 @@
 
 /*Sobre Nosotros*/
 
-/*Barra*/
+/*Imagen Chef*/
+.img-fluid2 {
+  width: 25%;
+  max-width: 100vw;
+  border-radius: 10px;
+  font-size: 10px;
+}
 
-/*Barra*/
+.img-fluid2:hover {
+  border-radius: 15px;
+  transform: scale(1.07);
+}
+
+/*@media(max-width:768px) {
+  .img-fluid2 {
+    width: 100%;
+    max-width: 100vw;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  
+  .img-fluid2:hover {
+    border-radius: 15px;
+    transform: scale(1.07);
+  }
+  
+  
+}*/
+
+/*Imagen Chef*/
 
 
 
