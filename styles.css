@@ -146,16 +146,15 @@
 }
 
 .img-fluid{
-  width: 400px;
+  width: 600px;
   border-radius:  10px;
+  font-size: 10px;
 }
 
 .img-fluid:hover{
-  /* transform: scale(1.2);
-  opacity: 0.7;
-  transition: 0.5s; */
+
     border-radius: 15px;
-    scale: 1.08;
+    scale: 1.07;
     font-size: 10px;
 }
 
@@ -186,8 +185,8 @@
   padding: 30px 0;
 }
 
-#footer .img-fluid {
-  width: 150px;
+#footer img{
+  width: 130px;
   height: auto;
 }
 
@@ -273,7 +272,7 @@
     max-width: 100%;
   }
 
-  #footer .img-fluid {
+  #footer img {
     width: 120px;
     height: auto;
   }
@@ -304,7 +303,7 @@
     max-width: 100%;
   }
 
-  #footer .img-fluid {
+  #footer img {
     width: 100px;
     height: auto;
   }
@@ -328,6 +327,37 @@
     flex-direction: column;
   
   }
+  }
+
+  @media (max-width: 780px) {
+    #footer .container {
+      max-width: 100%;
+    }
+  
+    #footer img {
+      width: 100px;
+      height: auto;
+    }
+  
+    #footer .list-unstyled {
+      flex-wrap: wrap;
+    }
+  
+    #footer .list-inline {
+      display: flex;
+      flex-direction: inline-block;
+    }
+  
+    #footer .social-links li {
+      margin-top: 1rem;
+      
+    }
+  
+    #footer .copyright {
+      display: flex;
+      flex-direction: column;
+    
+    }
 }
 /* footer */
 
@@ -424,36 +454,6 @@ h1 {
   }
 }
 
-/*Boton de WhatsApp*/
-
-.float{
-	position: fixed ;
-  float: left;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:105px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-  line-height: 50px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
- n: column;
-}
-.float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
-}
-
-.my-float{
-	margin-top:16px;
-}
-
-/*Boton de WhatsApp*/
 
 html {
   scroll-behavior: smooth;
@@ -463,11 +463,9 @@ html {
   position: fixed;
   background-color: #004e79;
   border-radius: 60px;
-
   height: 50px;
   bottom: 40px;
   right: 50px;
-  
   text-decoration: none;
   align-items: center;
   line-height: 50px;

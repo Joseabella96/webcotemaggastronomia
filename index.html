@@ -1,410 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COTEMAG GASTRONOMICO</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" type="image" href="asset/cotemag-fabicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <!-- bootstrap links -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-    <!-- bootstrap links -->
-    <!-- fonts links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fonts links -->
-  </head>
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
-      <div class="container-fluid">
-        <div class="d-flex align-items-center">
-          <a class="navbar-brand" href="index.html" id="logo"
-            ><img src="asset/Logo-gastronomico-azul-2.png" alt="Logo-Cotemag"
-          /></a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COTEMAG GASTRONOMICO</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" type="image" href="asset/cotemag-fabicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <!-- bootstrap links -->
+  <!-- fonts links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+  <!-- fonts links -->
+</head>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span><img src="./asset/Menu.svg" alt="" width="30px" /></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >INICIO</a
-              >
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                DOCENTES
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                style="background-color: rgb(0 78 121)"
-              >
-                <li><a class="dropdown-item" href="Chef.html">CHEFS</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                OFERTAS ACADEMICAS
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                style="background-color: rgb(0 78 121)"
-              >
-                <li>
-                  <a class="dropdown-item" href="Tecnicos.html">TECNICOS</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Diplomados.html">DIPLOMADOS</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                RECETAS
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                style="background-color: rgb(0 78 121)"
-              >
-                <li><a class="dropdown-item" href="Blog.html">BLOG</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                GALERIA
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-                style="background-color: rgb(0 78 121)"
-              >
-                <li>
-                  <a class="dropdown-item" href="Nuetsrotrabajo.html"
-                    >NUESTRO TRABAJO</a
-                  >
-                </li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="Infraestructura.html"
-                >INFRAESTRUCTURA</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="Contacto.html">CONTACTOS</a>
-            </li>
-          </ul>
-        </div>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="index.html" id="logo"><img src="asset/Logo-gastronomico-azul-2.png"
+            alt="Logo-Cotemag" /></a>
       </div>
-    </nav>
-    <!-- navbar -->
 
-    <!--Slaider-->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="4"
-          aria-label="Slide 4"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="5"
-          aria-label="Slide 5"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="asset/galeria4.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="asset/fotogaleria1.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="asset/fotogaleria2.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="asset/Galeria.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="asset/Galeria1.jpeg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="asset/fotogaleria.jpeg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="./asset/Menu.svg" alt="" width="30px" /></span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              DOCENTES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121)">
+              <li><a class="dropdown-item" href="Chef.html">CHEFS</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              OFERTAS ACADEMICAS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121)">
+              <li>
+                <a class="dropdown-item" href="Tecnicos.html">TECNICOS</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Diplomados.html">DIPLOMADOS</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              RECETAS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121)">
+              <li><a class="dropdown-item" href="Blog.html">BLOG</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              GALERIA
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(0 78 121)">
+              <li>
+                <a class="dropdown-item" href="Nuetsrotrabajo.html">NUESTRO TRABAJO</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Infraestructura.html">INFRAESTRUCTURA</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Contacto.html">CONTACTOS</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!--Slaider-->
+  </nav>
+  <!-- navbar -->
 
-    <!--Sobre Nosotros-->
-    <section class="nosotros my-5">
-      <h2 class="text-center my-5">Sobre Nosotros</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <p>
-              Como docentes de una institución gastronómica, somos apasionados
-              de la cocina y la gastronomía. Nos dedicamos a transmitir nuestros
-              conocimientos y experiencias a nuestros estudiantes, guiándolos en
-              su aprendizaje y desarrollo profesional en el mundo culinario.
-              Nuestro objetivo es formar a futuros cocineros, chefs y
-              profesionales de la gastronomía, inculcando en ellos valores como
-              la creatividad, la excelencia y el respeto por los ingredientes y
-              las técnicas culinarias. Nos enorgullece ser parte del proceso de
-              formación de talento en el ámbito gastronómico y contribuir al
-              crecimiento de la industria culinaria.
-            </p>
-          </div>
-          <div class="col-6">
-            <img src="asset/galeria5.jpeg" class="img-fluid" />
-          </div>
+  <!--Slaider-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="asset/galeria4.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria1.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria2.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="asset/Galeria.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="asset/Galeria1.jpeg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="asset/fotogaleria.jpeg" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Slaider-->
+
+  <!--Sobre Nosotros-->
+  <section class="nosotros my-5">
+    <h2 class="text-center my-5">Sobre Nosotros</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p>
+            Como docentes de una institución gastronómica, somos apasionados
+            de la cocina y la gastronomía. Nos dedicamos a transmitir nuestros
+            conocimientos y experiencias a nuestros estudiantes, guiándolos en
+            su aprendizaje y desarrollo profesional en el mundo culinario.
+            Nuestro objetivo es formar a futuros cocineros, chefs y
+            profesionales de la gastronomía, inculcando en ellos valores como
+            la creatividad, la excelencia y el respeto por los ingredientes y
+            las técnicas culinarias. Nos enorgullece ser parte del proceso de
+            formación de talento en el ámbito gastronómico y contribuir al
+            crecimiento de la industria culinaria.
+          </p>
         </div>
+        <div class="col-6">
+          <img src="asset/galeria5.jpeg" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Sobre Nosotros-->
+
+  <!--Eventos-->
+  <main class="container my-5">
+    <section class="row">
+      <h1>Nuestros Eventos</h1>
+
+      <div class="col-md-4 event">
+        <img src="asset/evento1.jpg" alt="Evento 1" />
+        <h2>Evento 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
+          in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
+          repudiandae harum minus quibusdam nisi deleniti voluptate.
+        </p>
+      </div>
+
+      <div class="col-md-4 event">
+        <img src="asset/evento2.jpg" alt="Evento 2" />
+        <h2>Evento 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
+          in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
+          repudiandae harum minus quibusdam nisi deleniti voluptate.
+        </p>
+      </div>
+
+      <div class="col-md-4 event">
+        <img src="asset/evento3.jpg" alt="Evento 3" />
+        <h2>Evento 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
+          in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
+          repudiandae harum minus quibusdam nisi deleniti voluptate.
+        </p>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <a href="https://www.instagram.com/cotemaggastronomico/" target="_blank" class="btn btn-primary">Ver más</a>
       </div>
     </section>
-    <!--Sobre Nosotros-->
+  </main>
+  <!--Eventos-->
 
-    <!--Eventos-->
-    <main class="container my-5">
-      <section class="row">
-        <h1>Nuestros Eventos</h1>
+  <!--Barra-->
 
-        <div class="col-md-4 event">
-          <img src="asset/evento1.jpg" alt="Evento 1" />
-          <h2>Evento 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
-            in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
-            repudiandae harum minus quibusdam nisi deleniti voluptate.
-          </p>
-        </div>
+  <!--Barra-->
+  <!-- footer -->
 
-        <div class="col-md-4 event">
-          <img src="asset/evento2.jpg" alt="Evento 2" />
-          <h2>Evento 2</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
-            in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
-            repudiandae harum minus quibusdam nisi deleniti voluptate.
-          </p>
-        </div>
+  <footer id="footer" class="footer mt-auto py-3">
+    <div class="container">
+      <img src="asset/Logo-gastronomico-azul-2.png" class="img-fluid1" alt="Imagen de footer" />
 
-        <div class="col-md-4 event">
-          <img src="asset/evento3.jpg" alt="Evento 3" />
-          <h2>Evento 3</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
-            in minima id, nam quae delectus iste ipsam iure culpa dolorem est ut
-            repudiandae harum minus quibusdam nisi deleniti voluptate.
-          </p>
-        </div>
-
-        <div class="col-md-12 text-center">
-          <a
-            href="https://www.instagram.com/cotemaggastronomico/"
-            target="_blank"
-            class="btn btn-primary"
-            >Ver más</a
-          >
-        </div>
-      </section>
-    </main>
-    <!--Eventos-->
-
-    <!--Barra-->
-
-    <!--Barra-->
-    <!-- footer -->
-
-    <footer id="footer" class="footer mt-auto py-3">
-      <div class="container">
-        <img
-          src="asset/Logo-gastronomico-azul-2.png"
-          class="img-fluid"
-          alt="Imagen de footer"
-        />
-
-        <div class="d-flex justify-content-center text-aling-center">
-          <ul class="list-unstyled d-flex justify-content-center">
-            <li class="text-right mt-2">
-              <p>
-                Av. de los Estudiantes #17-46, Cundi, Santa Marta, Magdalena
-              </p>
-            </li>
-            <li class="text-right mt-2 aling-items-center">
-              <p>Teléfono: +57 300 481 3444</p>
-            </li>
-            <li class="text-right mt-2 aling-items-center">
-              <p>605-4231290</p>
-            </li>
-          </ul>
-        </div>
-        <div class="d-flex justify-content-center">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.instagram.com/cotemaggastronomico/"
-                target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://api.whatsapp.com/send/?phone=573004813444&text&type=phone_number&app_absent=0"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="copyright d-flex justify-content-center">
-          &copy; Copyright 2023
-          <strong><span class="span__span">COTEMAG GASTRONOMICO</span></strong
-          >Todos los derechos reservados
-        </div>
+      <div class="d-flex justify-content-center text-aling-center">
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li class="text-right mt-2">
+            <p>
+              Av. de los Estudiantes #17-46, Cundi, Santa Marta, Magdalena
+            </p>
+          </li>
+          <li class="text-right mt-2 aling-items-center">
+            <p>Teléfono: +57 300 481 3444</p>
+          </li>
+          <li class="text-right mt-2 aling-items-center">
+            <p>605-4231290</p>
+          </li>
+        </ul>
       </div>
-    </footer>
-    <!-- footer -->
+      <div class="d-flex justify-content-center">
 
-    <a href="#" class="arrow"
-      ><i><img src="./asset/arrow.svg" alt="" width="50px" /></i
-    ></a>
+        <ul class="list-inline social-links ">
+          <li class="list-inline-item"><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/cotemaggastronomico/" target="_blank"><i class="bi bi-instagram"></i></i></a></li>
+          <li class="list-inline-item"><a href="https://api.whatsapp.com/send/?phone=573004813444&text&type=phone_number&app_absent=0" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
 
-    <a
-      href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
-      class="float"
-      target="_blank"
-    >
-      <i class="fa fa-whatsapp my-float"></i>
-    </a>
+      </div>
+      <div class="copyright d-flex justify-content-center">
+        &copy; Copyright 2023
+        <strong><span class="span__span">COTEMAG GASTRONOMICO</span></strong>Todos los derechos reservados
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
 
-    <script src="script.js"></script>
+  <a href="#" class="arrow"><i><img src="./asset/arrow.svg" alt="" width="50px" /></i></a>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
