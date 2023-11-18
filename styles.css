@@ -204,6 +204,7 @@
 
 .col-md-12 {
   margin-bottom: 1rem;
+  
 }
 
 .my-3 {
@@ -211,15 +212,27 @@
   margin-bottom: 1rem;
 }
 
-.img-fluid3 {
-  max-width: 300px;
+h3{
   text-align: center;
-  position: relative;
+  text-transform: uppercase;
+}
+
+.imgchef {
+  display: flex;
+  max-width: 250px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.imgchef:hover{
+  transform: scale(1.07);
 }
 
 p {
   text-align: justify;
   margin-top: 0;
+  font-size: 18px;
 }
 
 
